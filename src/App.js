@@ -1,9 +1,11 @@
 import './App.css';
+import React from 'react';
+import Router from './routes';
 
 function App() {
   return (
     <div className="App">
-      <h2>Personal Cheetsheet</h2>
+      <Router />
     </div>
   );
 }
